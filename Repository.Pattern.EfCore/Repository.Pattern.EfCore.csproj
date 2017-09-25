@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="CommonServiceLocator" Version="1.4.0" />
+    <PackageReference Include="LinqKit.Microsoft.EntityFrameworkCore" Version="1.1.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Repository.Pattern\Repository.Pattern.csproj">
+      <Project>{F92A2826-3D08-4736-9E52-5271E9A408B6}</Project>
+      <Name>Repository.Pattern</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

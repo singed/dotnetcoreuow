@@ -1,0 +1,8 @@
+bin/
+obj/
+bin/**
+obj/**
+Debug/**
+Release/**
+.idea/**
+.DS_STORE
