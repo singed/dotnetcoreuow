@@ -6,3 +6,4 @@ Debug/**
 Release/**
 .idea/**
 .DS_STORE
+.vs/
